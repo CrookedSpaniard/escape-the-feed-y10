@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Escape the Feed · Year 10 Online Safety</title>
+  <meta name="description" content="An escape room for 2–3 players on Year 10 Online Safety: cross four zones (being safe online, online reputation and digital footprint, big data, right to privacy), choose doors, win four keys and open the Exit Vault. Hints, points, stars, a certificate and a results report for the teacher.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand">
+        <img class="logo" src="logo.png" alt="British School Alzira · Xàtiva · Gandia">
+        <div class="titles">
+          <p class="kicker">Year 10 · Online Safety</p>
+          <h1>Escape the Feed</h1>
+        </div>
+        <span class="h-team" id="hTeam"></span>
+      </div>
+      <div class="top-actions">
+        <span class="chip score" id="hScore" hidden>⭐ <b>0</b> pts</span>
+        <span class="chip" id="hTimer" title="Time since you entered the Feed (aim for 35 minutes)" hidden>⏱ <b>00:00</b></span>
+        <button class="chip-btn" id="btnCopy" hidden title="Copy your team’s results for your teacher">📋 Copy results</button>
+        <button class="chip-btn" id="btnHelp" title="How to play">? Help</button>
+        <button class="chip-btn" id="btnProjector" aria-pressed="false" title="Bigger text for the projector">Projector</button>
+        <button class="chip-btn" id="btnFull" title="Full screen">Full screen</button>
+        <button class="chip-btn" id="btnNew" hidden title="Start a new game">🔄 New game</button>
+      </div>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="foot">British School Alzira · Xàtiva · Gandia Group · Based on Oak National Academy KS4 Online safety (OGL v3.0)</footer>
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
